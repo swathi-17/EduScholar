@@ -51,15 +51,15 @@
 
 <div id="content" class="p-4 p-md-5 pt-5">
     <div id="container">
-        <div id="wel">WELCOME</div>
-            <div id="name">Mr. <?php echo $_SESSION["name"]; ?> </div>
+        <div id="wel">Faculty Dashboard</div>
+            <div id="name">Name: Mr. <?php echo $_SESSION["name"]; ?> </div>
             <?php if($_SESSION["username"]=="faculty1") { ?>
             <div class="sub" onclick="f1()">
                 <p1>Semester: III
-                    <span style="padding-left: 100px ;">Section: M</span>
+                    <span style="padding-left: 100px ;">Section: D</span>
                 </p1>
+                <p2>Course code: 19CS01</p2>
                 <p2>Course Title: Web Programming</p2>
-                <p3>Course code: 20CS306</p3>
             </div>
         <?php }
         else { ?>
@@ -67,8 +67,8 @@
                 <p1>Semester: V
                     <span style="padding-left: 100px ;">Section: D</span>
                 </p1>
+                <p2>Course code: 19CS02</p2>
                 <p2>Course Title: Java Programming</p2>
-                <p3>Course code: 19CSE31</p3>
             </div> 
         <?php } ?>
             <div class="sub">
@@ -78,9 +78,9 @@
                 <p2>Course Title: Machine Learning</p2>
                 <p3>Course code: 18CS704</p3>
             </div>
-            <div class="btn1p">
+            <!-- <div class="btn1p">
             <button class="button" onclick="myfunc1()">ADD COURSE</button>
-        </div>
+            </div> -->
     </div>
 </div>
     <!-- <div id="modal" class="modal">

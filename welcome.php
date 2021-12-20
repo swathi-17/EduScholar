@@ -38,13 +38,15 @@
     <div class="container" data-aos="fade-up" data-aos-duration="800">
         <div class="heading">PROGRESS REPORT</div>
         <div class="det">
-        <div> <span>USN:</span>  <?php echo $usn; ?></div>
+            <div><span>USN:</span>  <?php echo $usn; ?></div>
             <div><span>Name:</span>  <?php echo $name; ?></div>
+            <div><span>Email:</span>  <?php echo $email; ?></div>
             <!-- <div>Course: Web programming</div> -->
         </div>
         <table class="table table-bordered">
             <thead class="thead-dark">
                 <tr>
+                <th style="width: 10%" scope="col">Course code</th>
                 <th style="width: 20%" scope="col">Course</th>
                 <th style="width: 12.5%" scope="col">CIE</th>
                 <th style="width: 12.5%" scope="col">SEE</th>
@@ -95,6 +97,7 @@
 
         echo "
                 <tr>
+                <td>19CS01</td>
                 <td>Web Programming</td>
                 <td id='cie'>$ciem</td>
                 <td id='see'>$seem</td>
@@ -102,6 +105,7 @@
                 <td>$cattended</td>
                 </tr>
                 <tr>
+                <td>19CS02</td>
                 <td>Java Programming</td>
                 <td id='cie'>$ciem2</td>
                 <td id='see'>$seem2</td>
