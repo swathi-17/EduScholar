@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+      background-color: whitesmoke !important;
+}
+.container {
+    margin-top: 20px;
+}
+.date
+{
+    color: black;
+    font-size: 25px;
+    font-weight: 10px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+/* tr:nth-child(odd) {
+    background-color: #8F9AA5 !important;
+} */
+/* .container
+{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+}
+.new3 {
+    width: 80vw;
+    height: 100vh;
+} */
