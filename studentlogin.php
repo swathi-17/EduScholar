@@ -72,7 +72,7 @@
         <input type="text" class="login-input" name="usn" placeholder="USN" autofocus="true" required/>
         <input type="password" class="login-input" name="password" placeholder="Password" required/>
         <input type="submit" value="Login" name="submit" class="login-button"/>
-        <p class="link"><a href="signup.php">Signup</a></p>
+        <!-- <p class="link"><a href="signup.php">Signup</a></p> -->
   </form>
 </div>
 <?php
