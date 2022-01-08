@@ -49,4 +49,4 @@ localhost/phpmyadmin/eduscholar
 
 **Run the project in any browser**
 
-(Ensure proper internet conenction)
+(Ensure proper internet connection)
