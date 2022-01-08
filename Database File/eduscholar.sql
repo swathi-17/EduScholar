@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 20, 2021 at 11:37 AM
+-- Generation Time: Jan 08, 2022 at 07:13 AM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.1
 
@@ -53,7 +53,8 @@ INSERT INTO `attendance` (`id`, `adate`, `4NM19CS501`, `4NM19CS502`, `4NM19CS503
 (22, '2021-11-03', 'AB', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'),
 (37, '2021-11-04', 'P', 'P', 'P', 'P', 'P', 'P', 'AB', 'P', 'P', 'P', 'P', 'P', 'P'),
 (39, '2021-11-05', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'),
-(40, '2021-12-15', 'P', 'AB', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P');
+(40, '2021-12-15', 'P', 'AB', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'),
+(41, '2021-12-27', 'AB', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P');
 
 -- --------------------------------------------------------
 
@@ -187,19 +188,19 @@ CREATE TABLE `studentlogin` (
 --
 
 INSERT INTO `studentlogin` (`usn`, `sname`, `email`, `password`) VALUES
-('4NM19CS501', 'Abc', 'abc@gmail.com', '7ac66c0f148de9519b8bd264312c4d64'),
-('4NM19CS502', 'Def', 'def@gmail.com', '4ed9407630eb1000c0f6b63842defa7d'),
-('4NM19CS503', 'Ghi', 'ghi@gmail.com', '826bbc5d0522f5f20a1da4b60fa8c871'),
-('4NM19CS504', 'Jkl', 'jkl@gmail.com', '699a474e923b8da5d7aefbfc54a8a2bd'),
-('4NM19CS505', 'Mno', 'mno@gmail.com', 'd1cf6a6090003989122c4483ed135d55'),
-('4NM19CS506', 'Pqr', 'pqr@gmail.com', 'f734fd4ff1214de59bab601aa34030d2'),
-('4NM19CS507', 'Stu', 'stu@gmail.com', 'bdd5af62d46f0222f61908a1cff92f16'),
-('4NM19CS508', 'Vw', 'vw@gmail.com', '7336a2c49b0045fa1340bf899f785e70'),
-('4NM19CS509', 'Xyz', 'xyz@gmail.com', 'd16fb36f0911f878998c136191af705e'),
-('4NM19CS510', 'Axx', 'axx@gmail.com', 'b1115f66b3714049d8753d41ef45daad'),
-('4NM19CS511', 'Amar', 'amar@gmail.com', '36341cbb9c5a51ba81e855523de49dfd'),
-('4NM19CS512', 'Ajay', 'ajay@gmail.com', '29e457082db729fa1059d4294ede3909'),
-('4NM19CS513', 'Deep', 'deep@gmail.com', '6627415e807ee33c7302917216e7da68');
+('4NM19CS501', 'Ajay', 'ajay@gmail.com', '7ac66c0f148de9519b8bd264312c4d64'),
+('4NM19CS502', 'Amar', 'amar@gmail.com', '4ed9407630eb1000c0f6b63842defa7d'),
+('4NM19CS503', 'Gita', 'gita@gmail.com', '826bbc5d0522f5f20a1da4b60fa8c871'),
+('4NM19CS504', 'Hari', 'hari@gmail.com', '699a474e923b8da5d7aefbfc54a8a2bd'),
+('4NM19CS505', 'Deepa', 'deepa@gmail.com', 'd1cf6a6090003989122c4483ed135d55'),
+('4NM19CS506', 'Ram', 'ram@gmail.com', 'f734fd4ff1214de59bab601aa34030d2'),
+('4NM19CS507', 'Kavya', 'kavya@gmail.com', 'bdd5af62d46f0222f61908a1cff92f16'),
+('4NM19CS508', 'Vaibhav', 'vaibhav@gmail.com', '7336a2c49b0045fa1340bf899f785e70'),
+('4NM19CS509', 'Vijay', 'vijay@gmail.com', 'd16fb36f0911f878998c136191af705e'),
+('4NM19CS510', 'Arun', 'arun@gmail.com', 'b1115f66b3714049d8753d41ef45daad'),
+('4NM19CS511', 'Karthik', 'karthik@gmail.com', '36341cbb9c5a51ba81e855523de49dfd'),
+('4NM19CS512', 'Meera', 'meera@gmail.com', '29e457082db729fa1059d4294ede3909'),
+('4NM19CS513', 'Hita', 'hita@gmail.com', '6627415e807ee33c7302917216e7da68');
 
 --
 -- Indexes for dumped tables
@@ -249,7 +250,7 @@ ALTER TABLE `studentlogin`
 -- AUTO_INCREMENT for table `attendance`
 --
 ALTER TABLE `attendance`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 
 --
 -- AUTO_INCREMENT for table `attendance2`
